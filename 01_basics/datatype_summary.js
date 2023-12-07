@@ -28,18 +28,52 @@ const bigNumber = 89473277547594379882n;
 // Array ,Objects,Functions 
 
 
-const heros = ["shaktiman","nagraj","doga"];
+// const heros = ["shaktiman","nagraj","doga"];
 
 
-let myObj = {
-    name:"Deepak",
-    age:19,
+// let myObj = {
+//     name:"Deepak",
+//     age:19,
+// }
+
+
+
+// const myFunction = function(){
+//     console.log("myFunction");
+// }
+
+// console.log(typeof bigNumber);
+
+
+
+
+//**************************************** */
+
+
+
+// memories 
+
+//stack (primitive), Heap(Non Primitive)
+
+let myName = "Deepak"
+
+let anotherName = myName;
+anotherName = "Yadav"
+
+console.log(myName);
+console.log(anotherName);
+
+
+
+
+let userOne ={
+    email : "sadj@jn.com",
+    upi:"nsiudh@ybl"
 }
 
+let userTwo = userOne;
 
+userTwo.email = "jsfdh@jfgh.com"
 
-const myFunction = function(){
-    console.log("myFunction");
-}
-
-console.log(typeof bigNumber);
+console.log(userOne.email);
+console.log(userTwo.email);
